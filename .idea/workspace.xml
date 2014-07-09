@@ -2,111 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/database/seeds/UserTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-file-upload-shim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-file-upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap-multiselect.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/bootstrap-multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap-social.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap-switch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/bootstrap-switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/damn-uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/dash.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/frame.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/general.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/components/meta.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/ng-app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/ng-controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/ng-services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/pnotify.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/pnotify.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/resume.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/css/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/js/vendor/ui-bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/users.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/public/csv/vocab.csv" />
-      <change type="DELETED" beforePath="D:\wamp\www\resume\laravel\app\views\emails\auth\reminder.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/laravel/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/config/app.php" afterPath="$PROJECT_DIR$/laravel/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/config/database.php" afterPath="$PROJECT_DIR$/laravel/app/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/controllers/AdminController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/controllers/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/views/admin/meta.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/components/meta.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/components/meta.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/bootstrap/start.php" afterPath="$PROJECT_DIR$/laravel/bootstrap/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\wamp\www\resume\laravel\app\views\dash.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/admin/dash.blade.php" />
+      <change type="MOVED" beforePath="D:\wamp\www\resume\laravel\app\views\login.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/admin/login.blade.php" />
+      <change type="MOVED" beforePath="D:\wamp\www\resume\laravel\app\views\users.blade.php" afterPath="$PROJECT_DIR$/laravel/app/views/admin/users.blade.php" />
     </list>
     <ignored path="resume.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" time="1404924888395" ignored="false" />
+    <file path="/AdminController.php" changelist="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" time="1404932067273" ignored="false" />
+    <file path="/meta.blade.php" changelist="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" time="1404932189773" ignored="false" />
+    <file path="/login.blade.php" changelist="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" time="1404932297109" ignored="false" />
+    <file path="/dash.blade.php" changelist="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" time="1404934435334" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,91 +38,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
+      <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876">
+            <state line="25" column="55" selection-start="676" selection-end="676" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_07_09_073841_create_users.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/database/migrations/2014_07_09_073841_create_users.php">
+      <file leaf-file-name="dash.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/dash.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="5" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="782">
+            <state line="18" column="118" selection-start="879" selection-end="879" vertical-scroll-proportion="0.39130434">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+            <state line="9" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTableSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/database/seeds/UserTableSeeder.php">
+      <file leaf-file-name="meta.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/components/meta.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="2" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
+      <file leaf-file-name="meta.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/meta.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="0" selection-start="7477" selection-end="7477" vertical-scroll-proportion="-33.192307" vertical-offset="2435" max-vertical-offset="3400">
+            <state line="15" column="85" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/config/local/app.php">
+      <file leaf-file-name="users.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/users.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="5" column="26" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/config/local/database.php">
+      <file leaf-file-name="login.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
-              <folding />
+            <state line="28" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-17.653847">
+              <folding>
+                <marker date="1404932726227" expanded="true" signature="66:1280" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="141:1273" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="174:1262" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="292:1247" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="333:655" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="391:632" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="696:1015" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="754:992" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="1056:1227" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="1290:2160" placeholder="..." />
+                <marker date="1404932726227" expanded="true" signature="1309:2149" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1355:2141" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1508:1735" placeholder="{&quot;url&quot;: '/admin/login'...}" />
+                <marker date="1404932726227" expanded="true" signature="1599:1721" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1757:2129" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1797:1855" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1861:2115" placeholder="{...}" />
+                <marker date="1404932726227" expanded="true" signature="1936:2095" placeholder="{&quot;title&quot;: 'Authentication error.'...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/config/testing/cache.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/bootstrap/start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="45" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1207">
+            <state line="8" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -226,25 +139,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/laravel/app/config/database.php" />
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/laravel/app/database/migrations/2014_07_09_073841_create_users.php" />
         <option value="$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/laravel/app/config/app.php" />
         <option value="$PROJECT_DIR$/laravel/bootstrap/start.php" />
+        <option value="$PROJECT_DIR$/laravel/app/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/components/meta.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/admin/meta.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/admin/login.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/admin/dash.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="76" />
+    <option name="width" value="1783" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -264,7 +187,7 @@
       <flattenPackages />
       <showMembers />
       <showModules />
-      <showLibraryContents />
+      <showLibraryContents ProjectPane="true" />
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
@@ -359,7 +282,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,15 +323,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\resume\laravel\app\views\admin" />
+      <recent name="D:\wamp\www\resume\laravel\app\controllers" />
       <recent name="D:\wamp\www\resume\laravel\app\views" />
       <recent name="D:\wamp\www\resume\laravel\app\database\seeds" />
       <recent name="D:\wamp\www\resume\laravel\public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\resume\laravel\app\views\admin" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e7519b37-5f5e-4f32-b54c-22f5a58b1c78" name="Default" comment="" />
@@ -392,21 +370,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="76" y="0" width="1783" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1586287" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,136 +403,190 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
     </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="34" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/database/migrations/2014_07_09_073841_create_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="34" selection-start="1796" selection-end="1796" vertical-scroll-proportion="-16.423077" vertical-offset="559" max-vertical-offset="2210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/database/migrations/2014_07_09_073841_create_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/database/seeds/UserTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/start/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.96209586" vertical-offset="361" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="7477" selection-end="7477" vertical-scroll-proportion="-33.192307" vertical-offset="2435" max-vertical-offset="3400">
+        <state line="194" column="0" selection-start="7477" selection-end="7477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/local/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/local/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/testing/cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="45" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1207">
+        <state line="29" column="45" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876">
+        <state line="11" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.2457293">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/frame.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/components/meta.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-17.653847">
+          <folding>
+            <marker date="1404932726227" expanded="true" signature="66:1280" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="141:1273" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="174:1262" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="292:1247" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="333:655" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="391:632" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="696:1015" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="754:992" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="1056:1227" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="1290:2160" placeholder="..." />
+            <marker date="1404932726227" expanded="true" signature="1309:2149" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1355:2141" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1508:1735" placeholder="{&quot;url&quot;: '/admin/login'...}" />
+            <marker date="1404932726227" expanded="true" signature="1599:1721" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1757:2129" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1797:1855" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1861:2115" placeholder="{...}" />
+            <marker date="1404932726227" expanded="true" signature="1936:2095" placeholder="{&quot;title&quot;: 'Authentication error.'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/meta.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="85" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="55" selection-start="676" selection-end="676" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/admin/dash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="118" selection-start="879" selection-end="879" vertical-scroll-proportion="0.39130434">
           <folding />
         </state>
       </provider>

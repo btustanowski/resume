@@ -2,7 +2,7 @@
 <html lang="pl" ng-app="btApp">
 <head>
     <meta charset="UTF-8">
-    <title>BT vocab trainer</title>
+    <title>BT admin</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo asset('css/bootstrap.min.css')?>" type="text/css">
     <link rel="stylesheet" href="<?php echo asset('css/font-awesome.css')?>" type="text/css">
