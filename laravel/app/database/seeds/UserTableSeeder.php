@@ -9,7 +9,7 @@ class UserTableSeeder extends Seeder {
 	 */
 	public function run()
 	{
-        User::create(['username'=>'admin1', 'password'=>Hash::make('admin1'), 'name'=>'Błażej Tustanowski', 'level'=>'admin']);
+        User::create(['username'=>'admin1', 'password'=>'$2y$10$voHaLdFkssYk41PoCWtIGeSaVpCwNzO45mklj5k0O1BWN.Jbc//5q', 'name'=>'Błażej Tustanowski', 'level'=>'admin']);
 	}
 
 }
