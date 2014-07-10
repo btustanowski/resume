@@ -2,7 +2,6 @@ var btApp = angular.module('btApp', [
     'ngRoute',
     'ngAnimate',
     'appControllers',
-    'appServices',
     'ui.bootstrap'
 ]).config(['$routeProvider', '$httpProvider',
     function($routeProvider, $httpProvider) {
@@ -11,21 +10,14 @@ var btApp = angular.module('btApp', [
             when('/users', {
                 templateUrl: 'user',
                 controller: 'UserCtrl'
-            }).
-            when('/words', {
-                templateUrl: 'word',
-                controller: 'WordCtrl'
-            }).
-            when('/dash', {
-                templateUrl: 'dash'
-            }).
-            when('/practice', {
-                templateUrl: 'practice',
-                controller: 'PracticeCtrl'
-            }).
-            when('/test', {
-                templateUrl: 'test',
-                controller: 'TestCtrl'
+            }).when('/users2', {
+                templateUrl: 'user',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(User){
+                        return User;
+                    }
+                }
             }).
             otherwise({
                 redirectTo: '/dash'
