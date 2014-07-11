@@ -9,9 +9,6 @@ var btApp = angular.module('btApp', [
         $routeProvider.
             when('/users', {
                 templateUrl: 'user',
-                controller: 'UserCtrl'
-            }).when('/users2', {
-                templateUrl: 'user',
                 controller: 'SCrudCtrl',
                 resolve: {
                     'service': function(User){
