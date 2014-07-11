@@ -62,7 +62,7 @@ class UserController extends BaseController {
         $r = [];
         try {
             if(Auth::user()->id == $id) {
-                throw new Exception('Nie można usunąć aktualnego użytkownika.');
+                throw new Exception('Cannot delete currently logged-in user.');
             }
             if((int)$id) {
                 $r['status'] = User::destroy($id);

@@ -22,9 +22,9 @@
     <script src="<?php echo asset('js/vendor/angular-animate.min.js'); ?>"></script>
     <script src="<?php echo asset('js/vendor/ui-bootstrap.js'); ?>"></script>
 
-    <script src="<?php echo asset('js/ng-controllers.js')?>" type="text/javascript"></script>
-    <script src="<?php echo asset('js/ng-app.js')?>" type="text/javascript"></script>
-    <script src="<?php echo asset('js/ng-services.js')?>" type="text/javascript"></script>
+    <script src="<?php echo asset('js/admin/ng-controllers.js')?>" type="text/javascript"></script>
+    <script src="<?php echo asset('js/admin/ng-app.js')?>" type="text/javascript"></script>
+    <script src="<?php echo asset('js/admin/ng-services.js')?>" type="text/javascript"></script>
 </head>
 <body>
 <div class="content container">
