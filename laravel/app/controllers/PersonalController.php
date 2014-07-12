@@ -16,7 +16,7 @@ class PersonalController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Personal::all()->toArray();;
+            $r['entries'] = Personal::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }

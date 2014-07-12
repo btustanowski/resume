@@ -16,7 +16,7 @@ class UserController extends BaseController {
 	{
         $r = [];
         try {
-            $r['users'] = User::all()->toArray();;
+            $r['users'] = User::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }

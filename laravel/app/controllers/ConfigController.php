@@ -16,7 +16,7 @@ class ConfigController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Config::all()->toArray();;
+            $r['entries'] = Conf::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }
@@ -29,7 +29,7 @@ class ConfigController extends BaseController {
         try {
             if(Input::get('id')) {
                 $r['action'] = 'edit';
-                $r['entry'] = Config::find(Input::get('id'));
+                $r['entry'] = Conf::find(Input::get('id'));
                 if($r['entry']) {
                     $r['entry']->entry = Input::get('entry');
                     $r['entry']->value = Input::get('value');
@@ -39,7 +39,7 @@ class ConfigController extends BaseController {
                 }
             } else {
                 $r['action'] = 'add';
-                $r['entry'] = Config::create([
+                $r['entry'] = Conf::create([
                     'entry' => Input::get('entry'),
                     'value' => Input::get('value')
                 ]);
@@ -56,7 +56,7 @@ class ConfigController extends BaseController {
         $r = [];
         try {
             if((int)$id) {
-                $r['status'] = Config::destroy($id);
+                $r['status'] = Conf::destroy($id);
             } else {
                 throw new Exception('Missing entry.');
             }

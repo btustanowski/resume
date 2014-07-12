@@ -16,7 +16,7 @@ class ExperienceController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Experience::all()->toArray();;
+            $r['entries'] = Experience::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }

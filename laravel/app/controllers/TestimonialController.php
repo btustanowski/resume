@@ -16,7 +16,7 @@ class TestimonialController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Testimonial::all()->toArray();;
+            $r['entries'] = Testimonial::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }

@@ -1,6 +1,6 @@
 <?php
 
-class InterestController extends BaseController {
+class SampleController extends BaseController {
 
     public function __construct()
     {
@@ -9,14 +9,14 @@ class InterestController extends BaseController {
 
 	public function getIndex()
 	{
-        return View::make('admin.interests');
+        return View::make('admin.samples');
 	}
 
 	public function getList()
 	{
         $r = [];
         try {
-            $r['entries'] = Interest::all()->toArray();
+            $r['entries'] = Sample::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }
@@ -29,17 +29,21 @@ class InterestController extends BaseController {
         try {
             if(Input::get('id')) {
                 $r['action'] = 'edit';
-                $r['entry'] = Interest::find(Input::get('id'));
+                $r['entry'] = Sample::find(Input::get('id'));
                 if($r['entry']) {
-                    $r['entry']->name = Input::get('name');
+                    $r['entry']->language = Input::get('language');
+                    $r['entry']->content = Input::get('content');
+                    $r['entry']->description = Input::get('description');
                     $r['entry']->save();
                 } else {
                     throw new Exception('Missing entry.');
                 }
             } else {
                 $r['action'] = 'add';
-                $r['entry'] = Interest::create([
-                    'name' => Input::get('name')
+                $r['entry'] = Sample::create([
+                    'language' => Input::get('language'),
+                    'content' => Input::get('content'),
+                    'description' => Input::get('description')
                 ]);
             }
 
@@ -54,7 +58,7 @@ class InterestController extends BaseController {
         $r = [];
         try {
             if((int)$id) {
-                $r['status'] = Interest::destroy($id);
+                $r['status'] = Sample::destroy($id);
             } else {
                 throw new Exception('Missing entry.');
             }

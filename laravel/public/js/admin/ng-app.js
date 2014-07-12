@@ -34,6 +34,60 @@ var btApp = angular.module('btApp', [
                     }
                 }
             }).
+            when('/personal', {
+                templateUrl: 'personal',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Personal){
+                        return Personal;
+                    }
+                }
+            }).
+            when('/config', {
+                templateUrl: 'config',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Config){
+                        return Config;
+                    }
+                }
+            }).
+            when('/interests', {
+                templateUrl: 'interest',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Interest){
+                        return Interest;
+                    }
+                }
+            }).
+            when('/testimonials', {
+                templateUrl: 'testimonial',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Testimonial){
+                        return Testimonial;
+                    }
+                }
+            }).
+            when('/skills', {
+                templateUrl: 'skill',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Skill){
+                        return Skill;
+                    }
+                }
+            }).
+            when('/samples', {
+                templateUrl: 'sample',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Sample){
+                        return Sample;
+                    }
+                }
+            }).
             otherwise({
                 redirectTo: '/dash'
             });

@@ -16,7 +16,7 @@ class SkillController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Skill::all()->toArray();;
+            $r['entries'] = Skill::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }

@@ -16,7 +16,7 @@ class EducationController extends BaseController {
 	{
         $r = [];
         try {
-            $r['entries'] = Education::all()->toArray();;
+            $r['entries'] = Education::all()->toArray();
         } catch(Exception $e) {
             $r['error'] = $e->getMessage();
         }
