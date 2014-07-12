@@ -25,6 +25,15 @@ var btApp = angular.module('btApp', [
                     }
                 }
             }).
+            when('/experience', {
+                templateUrl: 'experience',
+                controller: 'SCrudCtrl',
+                resolve: {
+                    'service': function(Experience){
+                        return Experience;
+                    }
+                }
+            }).
             otherwise({
                 redirectTo: '/dash'
             });
