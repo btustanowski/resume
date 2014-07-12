@@ -3,7 +3,7 @@
 @section('mastercontent')
 
 <div class="row" id="top">
-    <div id="nav" class="crouch">
+    <div id="nav" class="col-md-3 crouch">
         <ul class="nav nav-list">
             <li><a href="#top">About me</a></li>
             <li><a href="#personal">Personal Information</a></li>
