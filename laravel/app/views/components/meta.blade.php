@@ -18,7 +18,7 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav" data-offset="100">
     <div class="content container">
         @yield('mastercontent')
     </div>

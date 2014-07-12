@@ -3,18 +3,19 @@
 @section('mastercontent')
 
 <div class="row" id="top">
-    <ul class="nav nav-list affix col-md-2" id="nav">
-        <li><a href="#top">About me</a></li>
-        <li><a href="#personal">Personal Information</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#samples">Code Samples</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div id="content" class="col-md-9 col-md-offset-3">
-
+    <div id="nav" class="crouch">
+        <ul class="nav nav-list">
+            <li><a href="#top">About me</a></li>
+            <li><a href="#personal">Personal Information</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#samples">Code Samples</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="content" class="col-md-9 col-md-offset-3 crouch">
         <h1>Błażej Tustanowski</h1>
         <h3>Webdeveloper, UX Designer</h3>
 
@@ -84,6 +85,13 @@
             </ul>
         </section>
 
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>
+                Diving, driving, skiing
+            </p>
+        </section>
+
         <section id="samples">
             <h2>Code Samples</h2>
 
@@ -111,13 +119,6 @@ interface Factory
 
 
 
-        </section>
-
-        <section id="interests">
-            <h2>Interests</h2>
-            <p>
-                Diving, driving, skiing
-            </p>
         </section>
 
         <section id="contact">
