@@ -1,37 +1,109 @@
+@primary-color: #D86728;
+@black: #111;
+@white: #fff;
+
+* {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -ms-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.1em;
+    background: url('../img/gplaypattern.png') repeat top left fixed;
 }
 a, a:active, a:visited, a:hover {
     cursor: pointer;
 }
-.panel-login {
-    margin-top: 200px;
-}
-.notification {
-    text-align: center;
-    margin: 0 25%;
-}
-#main {
-    padding-top: 70px;
-}
-#dropzone {
-    min-height: 400px;
-    * {
-        display: none;
-    }
-}
-.pagination {
-    margin: 0 auto;
+
+div.container {
+    background: darken(@white, 5%);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    overflow: hidden;
 }
 
-@media print
-{
-    #main {
-        padding-top: 0px;
+#nav {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0 0 0;
+    li {
+        font-size: 1.3em;
+        display: block;
+        a, a:visited {
+            padding: 5px 20px;
+            text-transform: uppercase;
+            color: @black;
+        }
+        &.active, &:hover {
+            a, a:visited {
+                background: @primary-color;
+                color: @white;
+            }
+        }
     }
-    .no-print, .no-print *
-    {
-        display: none !important;
+}
+
+#content {
+    padding: 5px 30px;
+    background: @white;
+    border-left: 5px solid @primary-color;
+    section {
+        margin: 0 0 30px 0;
     }
+    h1, h3 {
+        font-family: 'Oswald';
+        text-shadow: darken(@white, 10%) 0px 1px 1px;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-family: 'Droid Sans';
+        font-weight: normal;
+        font-size: 2.1em;
+        display: inline-block;
+        background: @primary-color;
+        color: @white;
+        padding: 15px 25px;
+        margin: 30px 0 30px -30px;
+    }
+    .panel {
+        .panel-body {
+            font-family: 'Roboto';
+            font-size: 1.4em;
+        }
+    }
+
+    // Sections
+    section#personal {
+        ul {
+            padding: 0;
+            list-style-type: none;
+            li {
+                font-family: 'Lato';
+                font-size: 1.4em;
+                background: darken(@white, 5%);
+                display: block;
+                margin: 0 0 20px 0;
+                border: 1px solid darken(@white, 15%);
+                em {
+                    background: @white;
+                    display: inline-block;
+                    padding: 12px;
+                    color: lighten(@black, 35%);
+                    font-style: normal;
+                }
+                span {
+                    border-left: 1px solid darken(@white, 15%);
+                    padding: 12px;
+                }
+            }
+        }
+    }
+
 }

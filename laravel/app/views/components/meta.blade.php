@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="pl" ng-app="btApp">
+<html lang="en" ng-app="btApp">
 <head>
     <meta charset="UTF-8">
-    <title>BT vocab trainer</title>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <title>Blaze Tustanowski</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Droid+Sans|Lato|Roboto:100,300,400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo asset('css/bootstrap.min.css')?>" type="text/css">
     <link rel="stylesheet" href="<?php echo asset('css/font-awesome.css')?>" type="text/css">
     <link rel="stylesheet" href="<?php echo asset('css/pnotify.custom.min.css')?>" type="text/css">

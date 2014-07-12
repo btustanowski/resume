@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo asset('css/bootstrap.min.css')?>" type="text/css">
     <link rel="stylesheet" href="<?php echo asset('css/font-awesome.css')?>" type="text/css">
     <link rel="stylesheet" href="<?php echo asset('css/pnotify.custom.min.css')?>" type="text/css">
-    <link rel="stylesheet/less" href="<?php echo asset('css/general.less')?>" type="text/css">
+    <link rel="stylesheet/less" href="<?php echo asset('css/admin.less')?>" type="text/css">
 
     <script src="<?php echo asset('js/vendor/less.js')?>" type="text/javascript"></script>
     <script src="<?php echo asset('js/vendor/jquery.min.js')?>" type="text/javascript"></script>

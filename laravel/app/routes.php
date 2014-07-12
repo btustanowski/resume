@@ -15,4 +15,3 @@ Route::controller('skill', 'SkillController');
 Route::controller('sample', 'SampleController');
 
 Route::get('/', 'HomeController@landing');
-Route::get('/dash', 'HomeController@dash');
