@@ -16,19 +16,14 @@
     <script src="<?php echo asset('js/custom.js')?>" type="text/javascript"></script>
     <script src="<?php echo asset('js/pnotify.custom.js')?>" type="text/javascript"></script>
 
-    <script src="<?php echo asset('js/vendor/angular.min.js'); ?>"></script>
-    <script src="<?php echo asset('js/vendor/angular-route.min.js'); ?>"></script>
-    <script src="<?php echo asset('js/vendor/angular-resource.min.js'); ?>"></script>
-    <script src="<?php echo asset('js/vendor/angular-animate.min.js'); ?>"></script>
-    <script src="<?php echo asset('js/vendor/ui-bootstrap.js'); ?>"></script>
 
-    <script src="<?php echo asset('js/ng-controllers.js')?>" type="text/javascript"></script>
-    <script src="<?php echo asset('js/ng-services.js')?>" type="text/javascript"></script>
-    <script src="<?php echo asset('js/ng-app.js')?>" type="text/javascript"></script>
 </head>
 <body>
-<div class="content container">
-    @yield('mastercontent')
-</div>
+    <div class="content container">
+        @yield('mastercontent')
+    </div>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

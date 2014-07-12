@@ -92,18 +92,84 @@ div.container {
                 margin: 0 0 20px 0;
                 border: 1px solid darken(@white, 15%);
                 em {
+                    min-width: 20%;
                     background: @white;
                     display: inline-block;
                     padding: 12px;
                     color: lighten(@black, 35%);
                     font-style: normal;
+                    border-right: 1px solid darken(@white, 15%);
                 }
                 span {
-                    border-left: 1px solid darken(@white, 15%);
                     padding: 12px;
                 }
             }
         }
     }
 
+    section#skills {
+        ul {
+            padding: 0;
+            list-style-type: none;
+            li {
+                padding: 12px;
+                font-family: 'Lato';
+                font-size: 1.4em;
+                background: darken(@white, 5%);
+                display: inline-block;
+                margin: 20px;
+                border: 1px solid darken(@white, 15%);
+            }
+        }
+    }
+
+    section#samples {
+        pre {
+            padding: 0;
+            margin: 0;
+
+        }
+    }
+
+    section#interests {
+        p {
+            font-size: 1.3em;
+        }
+    }
+
+    section#contact {
+        ul {
+            padding: 0;
+            list-style-type: none;
+            li {
+                background: @white;
+                font-family: 'Lato';
+                font-size: 1.4em;
+                display: block;
+                margin: 0 0 20px 0;
+                border: 1px solid darken(@white, 15%);
+                em {
+                    min-width: 25%;
+                    background: darken(@white, 5%);
+                    display: inline-block;
+                    padding: 12px;
+                    color: lighten(@black, 35%);
+                    font-style: normal;
+                    border-right: 1px solid darken(@white, 15%);
+                }
+                span {
+                    padding: 12px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 1.3em;
+    text-align: right;
+    font-family: 'Lato';
+    background: @primary-color;
+    color: @white;
+    padding: 20px;
 }

@@ -50,35 +50,92 @@
 
         <section id="experience">
             <h2>Professional Experience</h2>
-            experience goes here
+            <h4>First Beat Media</h4>
+            <h5><span class="fa fa-calendar"></span> 2011 - current</h5>
+            <p>wqerwqer</p>
+            <hr>
+            <h4>First Beat Media</h4>
+            <h5><span class="fa fa-calendar"></span> 2011 - current</h5>
+            <p>wqerwqer</p>
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            education goes here
+            <h4>Opole Blabla</h4>
+            <h5><span class="fa fa-calendar"></span> 2010 - 2013</h5>
+            <p>wqerwqer</p>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            skills go here
+            <h2>Skills and Technologies</h2>
+            <ul>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>Redis</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>Redis</li>
+                <li>jQuery</li>
+            </ul>
         </section>
 
         <section id="samples">
             <h2>Code Samples</h2>
-            samples go
+
+
+            <section class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Laravel User Controller</h3>
+                    <h4 class="pull-right">PHP, ActiveRecord</h4>
+                    <p>Example of a Laravel Controller</p>
+                    <hr>
+
+<pre><code>
+require_once 'Zend/Uri/Http.php';
+
+namespace Location\Web;
+
+interface Factory
+{
+    static function _factory();
+}
+</code></pre>
+
+                </div>
+            </section>
+
+
+
         </section>
 
         <section id="interests">
             <h2>Interests</h2>
-            interests go here
+            <p>
+                Diving, driving, skiing
+            </p>
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
-            contact form goes here
+            <ul>
+                <li>
+                    <em>e-mail</em><span>b.tustanowski@gmail.com</span>
+                </li>
+                <li>
+                    <em>skype</em><span>b.tustanowski</span>
+                </li>
+            </ul>
         </section>
-
     </div>
+    <div class="clearfix"></div>
+    <footer>
+        &copy; b.tustanowski
+    </footer>
 </div>
 
 @stop
