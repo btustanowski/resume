@@ -15,6 +15,7 @@ class CreateSamples extends Migration {
         Schema::create('samples', function(Blueprint $table)
         {
             $table->increments('id')->unsigned();
+            $table->string('title');
             $table->string('language');
             $table->string('description');
             $table->text('content');

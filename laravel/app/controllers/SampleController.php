@@ -33,6 +33,7 @@ class SampleController extends BaseController {
                 if($r['entry']) {
                     $r['entry']->language = Input::get('language');
                     $r['entry']->content = Input::get('content');
+                    $r['entry']->title = Input::get('title');
                     $r['entry']->description = Input::get('description');
                     $r['entry']->save();
                 } else {
@@ -43,6 +44,7 @@ class SampleController extends BaseController {
                 $r['entry'] = Sample::create([
                     'language' => Input::get('language'),
                     'content' => Input::get('content'),
+                    'title' => Input::get('title'),
                     'description' => Input::get('description')
                 ]);
             }

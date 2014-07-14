@@ -14,8 +14,8 @@
             <thead>
             <tr>
                 <th>#</th>
+                <th>Title</th>
                 <th>Language</th>
-                <th>Content</th>
                 <th>Description</th>
                 <th class="col-md-2">&nbsp;</th>
             </tr>
@@ -23,8 +23,8 @@
             <tbody>
             <tr ng-repeat="item in itemlist | filter:srch">
                 <td>{{item.id}}</td>
+                <td>{{item.title}}</td>
                 <td>{{item.language}}</td>
-                <td>{{item.content}}</td>
                 <td>{{item.description}}</td>
                 <td>
                     <button type="button" class="btn btn-warning btn-sm" ng-click="editItem(item)"><span class="fa fa-edit"></span> Edit</button>
@@ -51,6 +51,12 @@
             <div class="modal-body">
                 <form novalidate class="form-horizontal" role="form" name="itemForm">
                     <input type="hidden" ng-model="activeItem.id">
+                    <div class="form-group" ng-class="{'has-error': itemForm.title.$invalid && itemForm.title.$dirty}">
+                        <label for="f1" class="col-sm-4 control-label">Title</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="f1" ng-model="activeItem.title" required name="title">
+                        </div>
+                    </div>
                     <div class="form-group" ng-class="{'has-error': itemForm.language.$invalid && itemForm.language.$dirty}">
                         <label for="f1" class="col-sm-4 control-label">Language</label>
                         <div class="col-sm-8">
@@ -60,7 +66,7 @@
                     <div class="form-group" ng-class="{'has-error': itemForm.content.$invalid && itemForm.content.$dirty}">
                         <label for="f1" class="col-sm-4 control-label">Content</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="f1" ng-model="activeItem.content" required name="content">
+                            <textarea class="form-control" id="f1" ng-model="activeItem.content" required name="content"></textarea>
                         </div>
                     </div>
                     <div class="form-group" ng-class="{'has-error': itemForm.description.$invalid && itemForm.description.$dirty}">

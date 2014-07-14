@@ -119,6 +119,24 @@ div.container {
         }
     }
 
+    section#experience {
+        p {
+            font-size: 1.3em;
+        }
+        hr:last-child {
+            display: none;
+        }
+    }
+
+    section#education {
+        p {
+            font-size: 1.3em;
+        }
+        hr:last-child {
+            display: none;
+        }
+    }
+
     section#skills {
         ul {
             padding: 0;
@@ -139,13 +157,21 @@ div.container {
         pre {
             padding: 0;
             margin: 0;
-
+        }
+        h4 {
+            margin-left: 30px;
         }
     }
 
     section#interests {
         p {
             font-size: 1.3em;
+            span {
+                color: lighten(@black, 60%);
+                &:last-child {
+                    display: none;
+                }
+            }
         }
     }
 

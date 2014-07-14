@@ -16,119 +16,90 @@
         </ul>
     </div>
     <div id="content" class="col-md-9 col-md-offset-3 crouch">
-        <h1>Błażej Tustanowski</h1>
-        <h3>Webdeveloper, UX Designer</h3>
+        <h1>[[ $conf['top_name'] ]]</h1>
+        <h3>[[ $conf['top_title'] ]]</h3>
 
         <section class="panel panel-default">
             <div class="panel-body">
-                A webdeveloper with a passion for User Experience and functionality. Fast thinker and learner with deep understanding of both front- and back-end sides of website creation. Strong sense of design and ambition, always eager to learn new technologies and develop new solutions.
+                [[ $conf['top_note'] ]]
             </div>
         </section>
 
         <section id="personal">
             <h2>Personal Information</h2>
             <ul>
+                @foreach ($personal as $row)
                 <li>
-                    <em>name</em><span>Robb Armstrong</span>
+                    <em>[[ $row->entry ]]</em><span>[[ $row->content ]]</span>
                 </li>
-                <li>
-                    <em>name</em><span>Robb Armstrong</span>
-                </li>
-                <li>
-                    <em>name</em><span>Robb Armstrong</span>
-                </li>
-                <li>
-                    <em>name</em><span>Robb Armstrong</span>
-                </li>
-                <li>
-                    <em>name</em><span>Robb Armstrong</span>
-                </li>
-                <li>
-                    <em>name</em><span>Robb Armstrong</span>
-                </li>
+                @endforeach
             </ul>
         </section>
 
         <section id="experience">
-            <h2>Professional Experience</h2>
-            <h4>First Beat Media</h4>
-            <h5><span class="fa fa-calendar"></span> 2011 - current</h5>
-            <p>wqerwqer</p>
+            <h2>Experience</h2>
+            @foreach ($experience as $row)
+            <h4>[[ $row->title ]]</h4>
+            <h5><span class="fa fa-calendar"></span> [[ $row->from ]] – [[ $row->to ]]</h5>
+            <p>[[ $row->description ]]</p>
             <hr>
-            <h4>First Beat Media</h4>
-            <h5><span class="fa fa-calendar"></span> 2011 - current</h5>
-            <p>wqerwqer</p>
+            @endforeach
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            <h4>Opole Blabla</h4>
-            <h5><span class="fa fa-calendar"></span> 2010 - 2013</h5>
-            <p>wqerwqer</p>
+            @foreach ($education as $row)
+            <h4>[[ $row->title ]]</h4>
+            <h5><span class="fa fa-calendar"></span> [[ $row->from ]] – [[ $row->to ]]</h5>
+            <p>[[ $row->description ]]</p>
+            <hr>
+            @endforeach
         </section>
 
         <section id="skills">
             <h2>Skills and Technologies</h2>
             <ul>
-                <li>PHP</li>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>Javascript</li>
-                <li>Redis</li>
-                <li>jQuery</li>
-                <li>PHP</li>
-                <li>Javascript</li>
-                <li>PHP</li>
-                <li>Javascript</li>
-                <li>Redis</li>
-                <li>jQuery</li>
+                @foreach ($skills as $row)
+                <li>[[ $row->name ]]</li>
+                @endforeach
             </ul>
         </section>
 
         <section id="interests">
             <h2>Interests</h2>
             <p>
-                Diving, driving, skiing
+                @foreach ($interests as $row)
+                [[ $row->name ]]<span>, </span>
+                @endforeach
             </p>
         </section>
 
         <section id="samples">
             <h2>Code Samples</h2>
-
-
+            @foreach ($samples as $row)
             <section class="panel panel-default">
                 <div class="panel-body">
-                    <h3>Laravel User Controller</h3>
-                    <h4 class="pull-right">PHP, ActiveRecord</h4>
-                    <p>Example of a Laravel Controller</p>
+                    <h3>[[ $row->title ]]</h3>
+                    <h4 class="pull-right">[[ $row->language ]]</h4>
+                    <p>[[ $row->description ]]</p>
                     <hr>
-
-<pre><code>
-require_once 'Zend/Uri/Http.php';
-
-namespace Location\Web;
-
-interface Factory
-{
-    static function _factory();
-}
-</code></pre>
-
+                    <pre><code>[[ $row->content ]]</code></pre>
                 </div>
             </section>
-
-
-
+            @endforeach
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
             <ul>
                 <li>
-                    <em>e-mail</em><span>b.tustanowski@gmail.com</span>
+                    <em>E-mail</em><span>b.tustanowski@gmail.com</span>
                 </li>
                 <li>
-                    <em>skype</em><span>b.tustanowski</span>
+                    <em>Skype</em><span>b.tustanowski</span>
+                </li>
+                <li>
+                    <em>Phone</em><span>+48 886 992 991</span>
                 </li>
             </ul>
         </section>
