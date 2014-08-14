@@ -201,6 +201,33 @@ div.container {
             }
         }
     }
+
+    div.nokut {
+        span.note {
+            display: block;
+            background: @primary-color;
+            text-align: center;
+            color: @white;
+            font-family: 'Lato';
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+        cursor: pointer;
+        background: url('../img/nokut_recognition.jpg') no-repeat top center;
+        margin: 10px -30px;
+        &.large {
+            height: 1280px;
+            .note-small {
+                display: none;
+            }
+        }
+        &.small {
+            height: 220px;
+            .note-large {
+                display: none;
+            }
+        }
+    }
 }
 
 footer {

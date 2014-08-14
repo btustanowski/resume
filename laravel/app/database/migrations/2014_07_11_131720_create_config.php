@@ -16,7 +16,7 @@ class CreateConfig extends Migration {
         {
             $table->increments('id')->unsigned();
             $table->string('entry');
-            $table->string('value');
+            $table->text('value');
 
             $table->softDeletes();
             $table->timestamps();

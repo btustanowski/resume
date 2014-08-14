@@ -56,6 +56,11 @@
             @endforeach
         </section>
 
+        <div class="nokut small">
+            <span class="note note-small">Click to enlarge</span>
+            <span class="note note-large">Click to minimize</span>
+        </div>
+
         <section id="skills">
             <h2>Skills and Technologies</h2>
             <ul>
